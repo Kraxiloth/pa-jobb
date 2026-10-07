@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pa-jobb",
+  "main": ".svelte-kit/cloudflare/_worker.js",
+  "compatibility_date": "2026-10-07",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".svelte-kit/cloudflare"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+
+  // D1, R2 and Queue bindings are intentionally added later per environment.
+}

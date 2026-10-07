@@ -1,0 +1,12 @@
+{
+  "name": "På Jobb",
+  "short_name": "På Jobb",
+  "description": "Fra befaring til ferdig jobb.",
+  "lang": "nb-NO",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#f4f1ea",
+  "icons": []
+}
